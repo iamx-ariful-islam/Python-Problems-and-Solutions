@@ -1,0 +1,9 @@
+from itertools import combinations
+
+print(list(combinations([1, 2, 3, 4], 2)))
+
+
+'''output:
+
+[(1, 2), (1, 3), (1, 4), (2, 3), (2, 4), (3, 4)]
+'''
